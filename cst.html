@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      ClickSpeedTest
+    </title>
+    <link rel="icon" href="mousepointer.png" type="image/x-icon" class="title-bar-icon">
+    <link rel="stylesheet" href="cst.css">
+  </head>
+  <body>
+    <header>
+        <h1 class="title">ClickSpeedTest</h1>
+    </header>
+    <div class="click-test-area">
+      <div class="click-test-results">
+        <div>
+          <h1 class="result">Clicks: <span id="clicks-el"></span> </h1>
+        </div>
+        <div>
+          <h1 class="result" id="scores-el">Scores: </h1>
+        </div>
+      </div>
+      <div class="click-test">
+        <button id="clicks-btn" onclick="clicked()">Click me, fast&#33;</button>
+        <button id="save-btn" onclick="save()">Save</button>
+      </div>
+    </div>
+    <script src="cst.js"></script>
+  </body>
+</html>

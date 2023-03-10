@@ -1,0 +1,80 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(2,2,2);
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color:rgb(17,18,20);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: rgb(12,12,12) solid 3px;
+
+}
+
+.title {
+  display: inline-block;
+  margin: 0px;
+  background: linear-gradient(to right, rgb(76, 76, 189) 0%, rgb(116, 49, 130) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+.title-bar-icon {
+  border: solid;
+  border-radius: 50%;
+}
+
+.click-test-results {
+  color: white;
+  display: grid;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.click-test {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+}
+
+.click-test button{
+  display: block;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.result {
+  display: inline-block;
+
+}
+
+
+#clicks-btn {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 500px;
+  padding-right: 500px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color:white;
+  border-style: solid;
+  background-color:rgb(17,18,20);
+}
+
+#save-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+
+}
